@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.notification.NotificationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horaSeleccionada"
+        android:layout_marginTop="200dp"
+        android:text="10 : 45 pm"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="46dp"/>
+
+    <Button
+        android:id="@+id/ponerHorabutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="36dp"
+        android:text="Hora de la carrera"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/activarAvisobutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="36dp"
+        android:text="Activar aviso"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/cancelarAvisobutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="36dp"
+        android:text="Cancelar aviso"
+        android:textSize="26dp" />
+
+
+</LinearLayout>
